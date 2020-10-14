@@ -15,87 +15,36 @@
 | Thymeleaf、Bootstrap、JQuery | SpringBoot、JSR303、MyBatis | RabbitMQ、Redis、Druid |
 
 ### 代码目录
-
+```
 miaosha
-├── pom.xml
-├── README.md
-├── src
-│   ├── main
-│   │   ├── java
-│   │   │   └── com
-│   │   │       └── zzz
-│   │   │           └── miaosha
-│   │   │               ├── access
-│   │   │               │   ├── AccessInterceptor.java
-│   │   │               │   ├── AccessLimit.java
-│   │   │               │   └── UserContext.java
-│   │   │               ├── config
-│   │   │               │   ├── UserArgumentResolver.java
-│   │   │               │   └── WebConfig.java
-│   │   │               ├── controller
-│   │   │               │   ├── GoodsController.java
-│   │   │               │   ├── LoginController.java
-│   │   │               │   ├── MiaoshaController.java
-│   │   │               │   └── OrderController.java
-│   │   │               ├── dao
-│   │   │               │   ├── GoodsDao.java
-│   │   │               │   ├── MiaoshaUserDao.java
-│   │   │               │   └── OrderDao.java
-│   │   │               ├── domain
-│   │   │               │   ├── Goods.java
-│   │   │               │   ├── MiaoshaGoods.java
-│   │   │               │   ├── MiaoshaOrder.java
-│   │   │               │   ├── MiaoshaUser.java
-│   │   │               │   └── OrderInfo.java
-│   │   │               ├── exception
-│   │   │               │   ├── GlobalException.java
-│   │   │               │   └── GlobalExceptionHandler.java
-│   │   │               ├── rabbitmq
-│   │   │               │   ├── MiaoshaMessage.java
-│   │   │               │   ├── MQConfig.java
-│   │   │               │   ├── MQReceiver.java
-│   │   │               │   └── MQSender.java
-│   │   │               ├── redis
-│   │   │               │   ├── AccessKey.java
-│   │   │               │   ├── BasePrefix.java
-│   │   │               │   ├── GoodsKey.java
-│   │   │               │   ├── KeyPrefix.java
-│   │   │               │   ├── MiaoshaKey.java
-│   │   │               │   ├── MiaoshaUserKey.java
-│   │   │               │   ├── OrderKey.java
-│   │   │               │   ├── RedisConfig.java
-│   │   │               │   ├── RedisPoolFactory.java
-│   │   │               │   └── RedisService.java
-│   │   │               ├── result
-│   │   │               │   ├── CodeMsg.java
-│   │   │               │   └── Result.java
-│   │   │               ├── service
-│   │   │               │   ├── GoodsService.java
-│   │   │               │   ├── MiaoshaService.java
-│   │   │               │   ├── MiaoshaUserService.java
-│   │   │               │   └── OrderService.java
-│   │   │               ├── utils
-│   │   │               │   ├── DBUtil.java
-│   │   │               │   ├── MD5Util.java
-│   │   │               │   ├── UserUtil.java
-│   │   │               │   ├── UUIDUtil.java
-│   │   │               │   └── ValidatorUtil.java
-│   │   │               ├── validator
-│   │   │               │   ├── IsMobile.java
-│   │   │               │   └── IsMobileValidator.java
-│   │   │               └── vo
-│   │   │               │   ├── GoodsDetailVo.java
-│   │   │               │   ├── GoodsVo.java
-│   │   │               │   ├── LoginVo.java
-│   │   │               │   └── OrderDetailVo.java
-│   │   │               ├── MiaoshaApplication.java
-│   │   └── resources
-│   │       ├── application.properties
-│   │       ├── sql
-│   │       ├── static
-│   │       └── templates
-
-└── miaosha.md
+|- src
+ |-- main
+  |- java
+  	|-- com
+  	  |--- zzz
+  	  |---- miaosha
+  		|----- access
+  		|----- config
+  		|----- controller
+  		|----- dao
+  		|----- domain
+  		|----- exception
+  		|----- rabbitmq
+  		|----- redis
+  		|----- result
+  		|----- service
+  		|----- utils
+  		|----- validator
+  		|----- vo
+  		|----- MiaoshaApplication.java
+  |- resource
+  	|-- sql
+  	|-- static
+  	|-- templates
+  	|-- application.properties
+- pom.xml
+- README.md
+```
 
 ### demo内容
 
