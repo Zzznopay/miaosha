@@ -88,9 +88,7 @@ miaosha
 │   │   │               │   ├── GoodsVo.java
 │   │   │               │   ├── LoginVo.java
 │   │   │               │   └── OrderDetailVo.java
-
 │   │   │               ├── MiaoshaApplication.java
-
 │   │   └── resources
 │   │       ├── application.properties
 │   │       ├── sql
